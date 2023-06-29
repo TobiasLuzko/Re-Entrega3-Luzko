@@ -1,0 +1,15 @@
+.ropa-hombres {
+  background-color: rgba(207, 179, 146, 0.4196078431);
+  padding: 100px;
+  text-align: center;
+}
+.ropa-hombres h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ropa-hombres p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=extend.css.map */

@@ -1,0 +1,478 @@
+@charset "UTF-8";
+/* Estilos del header  */
+.container-fluid {
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #4d4d4d;
+  background-color: rgba(238, 212, 165, 0.5254901961);
+  /* estilos a del header */
+}
+.container-fluid a {
+  color: #353535;
+  text-decoration: none;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.6117647059);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  /* sombra al header conteiner  */
+}
+header #foto-ban {
+  display: block;
+  width: 100vw;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+/* el espacio entre el banner y el header  */
+.postbanner {
+  background-color: rgba(255, 255, 255, 0.3843137255);
+  text-align: center;
+  /* Centra el texto de el "post banner" */
+  /* tamaño de la letra H1  */
+  /* tamaño de la letra de p  */
+}
+.postbanner h1 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+.postbanner p {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+.ropa-hombres {
+  background-color: rgba(207, 179, 146, 0.4196078431);
+  padding: 100px;
+  text-align: center;
+  /* seccion de ropa de hombres */
+  /* tamaño y margin del h2  */
+  /* tamaño del p  */
+}
+.ropa-hombres h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ropa-hombres p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.ropa-mujeres {
+  background-color: #dadada;
+  padding: 100px;
+  text-align: center;
+  /* seccion ropa de mujeres */
+  /* tamaño y margin de h2  */
+  /* tamaño de fuente de p  */
+}
+.ropa-mujeres h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ropa-mujeres p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* seccion de ropa de niños */
+.ropa-niños {
+  background-color: rgba(207, 179, 146, 0.4196078431);
+  padding: 100px;
+  text-align: center;
+  /* tamaño y margin de h2 */
+  /* tamaño de fuente de p */
+}
+.ropa-niños h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ropa-niños p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* configuracion del footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .mapa {
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 40%;
+  text-align: left;
+}
+.info p {
+  margin: 10px 0;
+}
+
+/* seccion de hombre */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilos para el contenedor de los productos */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+
+/* Estilos para cada producto */
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  padding: 20px;
+  background-color: rgba(231, 226, 226, 0.6705882353);
+  border-radius: 5px;
+  box-shadow: 3.6px 3.5px 2.2px rgba(0, 0, 0, 0.026), 8.6px 8.4px 5.3px rgba(0, 0, 0, 0.038), 16.2px 15.9px 10px rgba(0, 0, 0, 0.047), 28.8px 28.4px 17.9px rgba(0, 0, 0, 0.056), 53.9px 53.1px 33.4px rgba(0, 0, 0, 0.067), 129px 127px 80px rgba(0, 0, 0, 0.09);
+  /* Estilos para la imagen de cada producto */
+  /* Estilos para el título de cada producto */
+  /* Estilos para la descripción de cada producto */
+}
+.product img {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  height: 11.875em;
+  width: 11.875em;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.product h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.product p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Estilos para el botón "Agregar al carrito" */
+.carrito {
+  background-color: #927654;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.boton- {
+  display: inline-block;
+  background-color: #3b3737;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.boton- :hover {
+  background-color: #c2a580;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 425px) {
+  .container-fluid {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #4d4d4d;
+    background-color: rgba(238, 212, 165, 0.5254901961);
+  }
+  .container-fluid a {
+    color: #353535;
+    text-decoration: none;
+  }
+  header {
+    background: rgba(255, 255, 255, 0.6117647059);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  }
+  header #foto-ban {
+    display: block;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .postbanner {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.3843137255);
+    text-align: center;
+  }
+  .postbanner h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  .postbanner p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .ropa-hombres {
+    background-color: rgba(207, 179, 146, 0.4196078431);
+    padding: 40px;
+    text-align: center;
+  }
+  .ropa-hombres h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .ropa-hombres p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .ropa-mujeres {
+    background-color: #dadada;
+    padding: 40px;
+    text-align: center;
+  }
+  .ropa-mujeres h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .ropa-mujeres p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .ropa-niños {
+    background-color: rgba(207, 179, 146, 0.4196078431);
+    padding: 40px;
+    text-align: center;
+  }
+  .ropa-niños h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .ropa-niños p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
+  footer .mapa {
+    margin-bottom: 20px;
+  }
+  .info {
+    display: flex;
+    font-size: 0.9em;
+    max-width: 100%;
+    text-align: center;
+  }
+  .info p {
+    display: flex;
+    margin: 0.5em;
+    padding: 0px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .product-container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+    padding-top: 2%;
+    margin-bottom: 70px;
+  }
+  .product {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 22.5px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6705882353);
+    border-radius: 5px;
+    box-shadow: 3.6px 3.5px 2.2px rgba(0, 0, 0, 0.026), 8.6px 8.4px 5.3px rgba(0, 0, 0, 0.038), 16.2px 15.9px 10px rgba(0, 0, 0, 0.047), 28.8px 28.4px 17.9px rgba(0, 0, 0, 0.056), 53.9px 53.1px 33.4px rgba(0, 0, 0, 0.067), 129px 127px 80px rgba(0, 0, 0, 0.09);
+    padding: 20px;
+  }
+  .product img {
+    display: grid;
+    margin-left: 30px;
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .product h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .product p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #4d4d4d;
+    background-color: rgba(238, 212, 165, 0.5254901961);
+  }
+  .container-fluid a {
+    color: #353535;
+    text-decoration: none;
+  }
+  header {
+    background: rgba(255, 255, 255, 0.6117647059);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  }
+  header #foto-ban {
+    display: block;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .postbanner {
+    padding-bottom: 40px;
+    margin-top: 50px;
+    background-color: rgba(238, 203, 152, 0.3843137255);
+    text-align: center;
+  }
+  .postbanner h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  .postbanner p {
+    font-size: 1em;
+    margin-bottom: 0px;
+  }
+  .ropa-hombres {
+    background-color: rgba(207, 179, 146, 0.4196078431);
+    padding: 40px;
+    text-align: center;
+  }
+  .ropa-hombres h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .ropa-hombres p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .ropa-mujeres {
+    background-color: #dadada;
+    padding: 40px;
+    text-align: center;
+  }
+  .ropa-mujeres h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .ropa-mujeres p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .ropa-niños {
+    background-color: rgba(207, 179, 146, 0.4196078431);
+    padding: 40px;
+    text-align: center;
+  }
+  .ropa-niños h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .ropa-niños p {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
+  footer .mapa {
+    margin-bottom: 20px;
+  }
+  .info {
+    display: flex;
+    font-size: 0.9em;
+    max-width: 100%;
+    text-align: center;
+  }
+  .info p {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 0px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-left: 3px;
+    padding-top: 2%;
+    margin-bottom: 70px;
+  }
+  .product {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6705882353);
+    border-radius: 5px;
+    box-shadow: 3.6px 3.5px 2.2px rgba(0, 0, 0, 0.026), 8.6px 8.4px 5.3px rgba(0, 0, 0, 0.038), 16.2px 15.9px 10px rgba(0, 0, 0, 0.047), 28.8px 28.4px 17.9px rgba(0, 0, 0, 0.056), 53.9px 53.1px 33.4px rgba(0, 0, 0, 0.067), 129px 127px 80px rgba(0, 0, 0, 0.09);
+    padding: 20px;
+  }
+  .product img {
+    display: flex;
+    margin-left: 20px;
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  .product h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .product p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}/*# sourceMappingURL=styles.css.map */

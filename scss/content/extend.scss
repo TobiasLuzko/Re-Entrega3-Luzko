@@ -1,0 +1,15 @@
+.ropa-hombres {
+    @extend .boton-;
+}
+
+.ropa-mujeres {
+    @extend .boton-;
+}
+
+.ropa-niños {
+    @extend .boton-;
+}
+
+.product-container {
+    @extend .product;
+}
